@@ -1,0 +1,34 @@
+---
+-
+  element_id: BYS_home_rapidenrollment_Button_close
+  operate_type: click
+  test_no: 1
+  test_describe: 未认证用户登录白云生
+  data_input: 
+  test_module: 登录
+  ch_check: BYS_home_Button_home
+-
+  element_id: BYS_my_Button_my
+  operate_type: click
+  data_input:
+  ch_check: BYS_my_Button_login
+-
+  element_id: BYS_my_Button_login
+  operate_type: click
+  data_input:
+  ch_check: BYS_login_Button_login
+-
+  element_id: BYS_login_Editbox_phone
+  operate_type: send_keys
+  data_input: 13691576734
+  ch_check:
+-
+  element_id: BYS_login_Editbox_password
+  operate_type: send_keys
+  data_input: Wy123456
+  ch_check:
+-
+  element_id: BYS_login_Button_login
+  operate_type: click
+  data_input:
+  ch_check: BYS_my_Button_my

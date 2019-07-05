@@ -1,0 +1,19 @@
+---
+-
+  element_id: LYO_login_Editbox_phone
+  operate_type: send_keys
+  test_no: 53
+  test_describe: 已注册有单个运营商权限用户登录联寓运营
+  data_input: 18516007057
+  test_module: 登录
+  ch_check:
+-
+  element_id: LYO_login_Editbox_password
+  operate_type: send_keys
+  data_input: Ct123456
+  ch_check:
+-
+  element_id: LYO_login_Button_login
+  operate_type: click
+  data_input:
+  ch_check: LYO_login_Button_login

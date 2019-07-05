@@ -1,0 +1,12 @@
+---
+- 
+  test_no: 
+  test_describe: 
+  test_module: 
+  type: 0
+  assembly_path: ../img/login.yaml
+-
+  element_id: BYS_home_rapidenrollment_Button_next
+  operate_type: click
+  data_input:
+  ch_check: BYS_home_rapidenrollment_Editbox_password
